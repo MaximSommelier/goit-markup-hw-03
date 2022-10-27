@@ -156,7 +156,7 @@
 .visually-hidden{
     display: none;
 }
-
+/* Кнопка Замовити послугу */
 .main-button{
     color: var(--third-color);
     background-color: var(--second-color);
@@ -168,6 +168,9 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    padding: 8px 30px;
+    min-width: 220px;
+    min-height: 50px;
 }
 
 .main-button:hover{
@@ -177,7 +180,27 @@
 .main-button:focus{
     background-color:var(--main-button-background);
 }
+/* Кнопка Усі */
+.button1{
+    color: var(--third-color);
+    background-color: var(--second-color);
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
 
+.button1:hover{
+    background-color: var(--main-button-background);
+}
+
+.button1:focus{
+    background-color:var(--main-button-background);
+}
+/* Інші кнопки */
 .button{
     color: var(--main-color);
     font-family: Inherit;
