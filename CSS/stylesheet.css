@@ -11,6 +11,21 @@
     --contacts-footer: rgba(255, 255, 255, 0.6);
 }
 
+/* Start Reset */
+h1,
+h2,
+h3,
+h4,
+p {margin: 0;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img {display: block;
+}
+/* End reset  */
 
 .body{
     font-family: 'Roboto',sans-serif;
@@ -138,6 +153,9 @@
     text-decoration: none;
 }
 .main-title{
+    width: 696;
+    margin-bottom: 30;
+    text-align: center;
     color: var(--third-color);
     text-transform: uppercase;
     font-weight: 900;
@@ -156,7 +174,7 @@
 .visually-hidden{
     display: none;
 }
-/* Кнопка Замовити послугу */
+ /* Кнопка Замовити послугу  */
 .main-button{
     color: var(--third-color);
     background-color: var(--second-color);
@@ -168,8 +186,8 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    padding: 8px 30px;
-    min-width: 220px;
+    padding: 10px 32px;
+    min-width: 216px;
     min-height: 50px;
 }
 
