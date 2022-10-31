@@ -170,6 +170,7 @@ img {display: block;
     text-decoration: none;
 }
 .main-title{
+    box-sizing: border-box;
     margin-bottom: 30px;
     width: 696px;
     text-align: center;
