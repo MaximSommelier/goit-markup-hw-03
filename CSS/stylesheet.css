@@ -33,7 +33,7 @@ img {display: block;
     padding-bottom: 94px;
 }
 .container{
-    width: 1600px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -46,7 +46,13 @@ img {display: block;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-
+/* Header непонятно*/
+.page-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
 .nav-link:hover{
     text-decoration: underline;
     color: var(--little-color);
