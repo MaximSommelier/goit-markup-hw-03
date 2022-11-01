@@ -128,14 +128,20 @@ img {display: block;
     color: var(--first-color);
     letter-spacing: 0.03em;
 }
-
+/* .main-section */
 .main-section{
     background-color:var(--just-color); 
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+/*особливості special */
+.list-special{
+    display: flex;
+}
 .second-title{
+    display: flex;
+    margin-right: 30px;
+    width: 270px;
     color: var(--main-color);
     font-weight: 700;
     font-size: 14px;
@@ -144,6 +150,7 @@ img {display: block;
 }
 
 .text-1{
+    margin-top: 10px;
     color:var(--little-color);
     font-weight: 400;
     font-size: 14px;
