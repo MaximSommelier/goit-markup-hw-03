@@ -10,6 +10,9 @@
     --just-color: #2F303A;
     --main-button-background: #1B8CEB;
     --contacts-footer: rgba(255, 255, 255, 0.6);
+
+    --indent: 30px;
+    --itens: 3;
 }
 
 /* Start Reset */
@@ -134,64 +137,9 @@ img {display: block;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-/*особливості special */
-.list-special{
-    display: flex;
-}
-.second-title{
-    display: flex;
-    margin-right: 30px;
-    width: 270px;
-    color: var(--main-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-}
-
-.text-1{
-    margin-top: 10px;
-    color:var(--little-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-}
-
-.comand{
-    color: var(--main-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.comand-text{
-    color: var(--little-color) ;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.third-title{
-    color: var(--main-color);
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-
-.text-2{
-    color:var(--little-color);
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-}
-
-.list{
-    list-style-type: none;
-    text-decoration: none;
-}
 .main-title{
-    box-sizing: border-box;
-    margin-bottom: 30px;
+    display: block;
+    margin: auto;
     width: 696px;
     text-align: center;
     color: var(--third-color);
@@ -201,19 +149,10 @@ img {display: block;
     line-height: 1.36;
     letter-spacing: 0.06em;
 }
-
-.title{
-    color: var(--main-color);
-    font-family: 'Roboto',sans-serif;
-    font-size: 36px;
-    line-height: 1.16;
-}
-
-.visually-hidden{
-    display: none;
-}
  /* Кнопка Замовити послугу  */
-.main-button{
+ .main-button{
+    display: block;
+    margin: 0 auto;
     color: var(--third-color);
     background-color: var(--second-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -236,7 +175,106 @@ img {display: block;
 .main-button:focus{
     background-color:var(--main-button-background);
 }
+/*особливості special */
+.list-special{
+    display: flex;
+}
+.second-title{
+    display: flex;
+    margin-right: 30px;
+    width: 270px;
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.text-1{
+    margin-top: 10px;
+    color:var(--little-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* чим займаємося */
+.list-about{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--indent);
+}
+.title-about{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* команда */
+.title-team{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.list-team{
+    display: flex;
+}
+.list-team:not(:last-child){
+    margin-right: var(--indent);
+}
+.comand{
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.comand-text{
+    color: var(--little-color) ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+/* Portfolio */
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.third-title{
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.text-2{
+    color:var(--little-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.list{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.title{
+    color: var(--main-color);
+    font-family: 'Roboto',sans-serif;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.visually-hidden{
+    display: none;
+}
+
 /* Кнопка Усі */
+.btn-portfolio{
+   display: flex;
+   text-align: center;
+   margin-bottom: 34px;
+   justify-content: center;
+}
+
 .button1{
     color: var(--third-color);
     background-color: var(--second-color);
