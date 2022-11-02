@@ -68,8 +68,12 @@ img {
 .nav-list{
     display: flex;
     margin-left: 93px;
-    margin-right: 344px;
+    
 }
+.nav-list :not(:first-child) {
+    margin-left: 50px;
+}
+
 .contacts-list{
     display: flex;
     align-items: center;
