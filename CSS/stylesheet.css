@@ -49,6 +49,11 @@ img {display: block;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
+
 
 /* portfolio nav */
 .container-navi{
@@ -62,7 +67,8 @@ img {display: block;
 }
 .nav-list{
     display: flex;
-    align-items: center;
+    margin-left: 93px;
+    margin-right: 344px;
 }
 .contacts-list{
     display: flex;
