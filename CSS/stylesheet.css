@@ -55,7 +55,8 @@ img {
 }
 
 
-/* portfolio nav */
+/* HEADER */
+
 .container-navi{
     display: flex;
     justify-content: space-between;
@@ -68,8 +69,10 @@ img {
 .nav-list{
     display: flex;
     margin-left: 93px;
-    
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
+
 .nav-list :not(:first-child) {
     margin-left: 50px;
 }
@@ -77,23 +80,9 @@ img {
 .contacts-list{
     display: flex;
     align-items: center;
-}
-
-/* Header index*/
-.header-container{
-   display: flex;
-   align-items: center;
-}
-
-.nav{
-    display: flex
-}
-.email{
-    margin-right: 50px;
-}
-.phone{
-    margin-right: 215px;
-}
+    padding-bottom: 32px;
+    padding-top: 32px;
+}   
 
 .nav-link:hover{
     text-decoration: underline;
@@ -125,6 +114,7 @@ img {
 }
 
 .contacts2 {
+    margin-left: 50px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
