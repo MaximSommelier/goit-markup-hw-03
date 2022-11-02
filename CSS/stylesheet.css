@@ -90,15 +90,6 @@ img {
     padding-bottom: 32px;
 }
 
-/* .nav-link:hover{
-    text-decoration: underline;
-    color: var(--little-color);
-}
-
-.nav-link:focus{
-    color:var(--second-color) ;            
-} */
-
 .contacts{
     font-weight: 500;
     font-size: 14px;
@@ -205,9 +196,11 @@ img {
 .list-special{
     display: flex;
 }
+.special-card{
+    gap: var(--indent);
+}
 .second-title{
-    display: flex;
-    margin-right: 30px;
+    padding-top: 10px;
     width: 270px;
     color: var(--main-color);
     font-weight: 700;
