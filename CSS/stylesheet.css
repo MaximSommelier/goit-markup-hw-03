@@ -259,7 +259,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-}
+    flex-basis: calc(100% / 3 - 30px);
+    }
 
 .port-text{
     margin: 20px 24px;
@@ -298,9 +299,13 @@ img {
 /* Кнопка Усі */
 .btn-portfolio{
    display: flex;
+   justify-content: center;
    text-align: center;
    margin-bottom: 34px;
-   justify-content: center;
+}
+
+.btn-item:not(:last-child){
+    margin-right: 8px;
 }
 
 .button1{
@@ -320,7 +325,7 @@ img {
 }
 
 .button1:focus{
-    background-color:var(--main-button-background);
+    background-color: var(--main-button-background);
 }
 /* Інші кнопки */
 .button{
