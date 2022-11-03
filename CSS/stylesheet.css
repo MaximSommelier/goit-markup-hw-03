@@ -234,10 +234,12 @@ img {
 .list-team{
     display: flex;
 }
-.list-team:not(:last-child){
+.team-card:not(:last-child){
     margin-right: var(--indent);
 }
 .comand{
+    padding-top: 30px;
+    text-align: center;
     color: var(--main-color);
     font-weight: 500;
     font-size: 16px;
@@ -245,6 +247,8 @@ img {
 }
 
 .comand-text{
+    padding-top: 10px;
+    text-align: center;
     color: var(--little-color) ;
     font-weight: 400;
     font-size: 16px;
