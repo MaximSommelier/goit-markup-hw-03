@@ -233,10 +233,11 @@ img {
 }
 .list-team{
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
-.team-card:not(:last-child){
-    margin-right: var(--indent);
-}
+
+
 .comand{
     padding-top: 30px;
     text-align: center;
@@ -263,9 +264,10 @@ img {
     }
 
 .port-text{
-    margin: 20px 24px;
+    padding: 20px 24px;
+    border: 1px solid var(--main-color);
+    border-top: none;
 }
-
 .third-title{
     color: var(--main-color);
     font-size: 18px;
