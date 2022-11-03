@@ -345,6 +345,19 @@ img {
     letter-spacing: 0.03em;
 }
 
+/* FOOTER */
+.footer-elements{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-links:not(:last-child){
+        margin-bottom: 9px;
+}
+.footer-links:first-child{
+    padding-top: 20px;
+}
+
 .footer-link{
     font-family: 'Raleway',sans-serif;
     color: var(--second-color);
