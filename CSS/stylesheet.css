@@ -260,6 +260,11 @@ img {
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.port-text{
+    margin: 20px 24px;
+}
+
 .third-title{
     color: var(--main-color);
     font-size: 18px;
@@ -339,13 +344,13 @@ img {
     box-shadow: var(--just-color);
 }
 
+/* FOOTER */
 .footer{
     background: var(--just-color);
     text-decoration: none;
     letter-spacing: 0.03em;
 }
 
-/* FOOTER */
 .footer-elements{
     padding-top: 60px;
     padding-bottom: 60px;
