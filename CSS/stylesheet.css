@@ -151,7 +151,7 @@ img {
     letter-spacing: 0.03em;
 }
 
-.navi-line{
+.header-navi-border{
     border-bottom: 1px solid var(--portfolio-border);
 }
 
