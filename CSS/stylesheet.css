@@ -237,7 +237,9 @@ img {
     text-align: center;
     margin-bottom: 50px;
 }
-
+.section-about{
+    padding-top: 0px;
+}
 /* команда */
 .title-team{
     text-align: center;
