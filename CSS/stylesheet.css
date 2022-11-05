@@ -1,6 +1,6 @@
 
 :root{
-    /* дефолт */
+    /* DEFOLT */
     --main-color: #212121; 
     --main-bg-color: #F5F5F5;
     --first-color: #000000;
@@ -9,6 +9,7 @@
     --little-color: #757575;
     --just-color: #2F303A;
     --main-button-background: #1B8CEB;
+    --portfolio-border: #EEEEEE;
     --contacts-footer: rgba(255, 255, 255, 0.6);
 
     --indent: 30px;
@@ -31,6 +32,7 @@ img {display: block;
 }
 /* End reset  */
 
+ /* STYLES */
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -69,8 +71,6 @@ img {
 .nav-list{
     display: flex;
     margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .nav-list :not(:first-child) {
@@ -80,9 +80,12 @@ img {
 .contacts-list{
     display: flex;
     align-items: center;
+}  
+
+ .contacts-m-t{
     padding-bottom: 32px;
     padding-top: 32px;
-}  
+ }
 
 .header-link{
     display: block;
@@ -132,7 +135,6 @@ img {
     letter-spacing: 0.02em;
 }
 
-
 .logo-link{ 
     font-family: 'Raleway',sans-serif;
     color: var(--second-color);
@@ -151,12 +153,13 @@ img {
 /* .main-section */
 .main-section{
     background-color:var(--just-color); 
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .main-title{
     display: block;
     margin: auto;
+    padding-bottom: 30px;
     width: 696px;
     text-align: center;
     color: var(--third-color);
@@ -192,6 +195,7 @@ img {
 .main-button:focus{
     background-color:var(--main-button-background);
 }
+
 /*особливості special */
 .list-special{
     display: flex;
@@ -212,10 +216,12 @@ img {
 .text-1{
     margin-top: 10px;
     color:var(--little-color);
+    width: 270px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
+
 /* чим займаємося */
 .list-about{
     display: flex;
@@ -226,6 +232,7 @@ img {
     text-align: center;
     margin-bottom: 50px;
 }
+
 /* команда */
 .title-team{
     text-align: center;
@@ -237,9 +244,12 @@ img {
     gap: 30px;
 }
 
-
-.comand{
+.comand-h-p{
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+.comand{
+    margin-bottom: 10px;
     text-align: center;
     color: var(--main-color);
     font-weight: 500;
@@ -248,13 +258,13 @@ img {
 }
 
 .comand-text{
-    padding-top: 10px;
     text-align: center;
     color: var(--little-color) ;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
 }
+
 /* Portfolio */
 .portfolio{
     display: flex;
@@ -265,7 +275,7 @@ img {
 
 .port-text{
     padding: 20px 24px;
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--portfolio-border);
     border-top: none;
 }
 .third-title{
@@ -298,7 +308,7 @@ img {
     display: none;
 }
 
-/* Кнопка Усі */
+/* Кнопки Портфоліо */
 .btn-portfolio{
    display: flex;
    justify-content: center;
@@ -310,15 +320,21 @@ img {
     margin-right: 8px;
 }
 
+.btn-item{
+    margin-bottom: 16px;
+}
+/* Кнопка Усі */
 .button1{
+    padding: 6px 25px;
     color: var(--third-color);
     background-color: var(--second-color);
     border-radius: 4px;
+    border: none;
     cursor: pointer;
     font-family: inherit;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.62;
     letter-spacing: 0.06em;
 }
 
@@ -329,14 +345,18 @@ img {
 .button1:focus{
     background-color: var(--main-button-background);
 }
+
 /* Інші кнопки */
 .button{
+    padding: 6px 22px;
     color: var(--main-color);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
     font-family: Inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62;
-    cursor: pointer;
+    line-height: 1.62;    
 }
 
 .button:hover{
@@ -356,18 +376,15 @@ img {
     background: var(--just-color);
     text-decoration: none;
     letter-spacing: 0.03em;
-}
-
-.footer-elements{
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .footer-links:not(:last-child){
-        margin-bottom: 9px;
+    margin-bottom: 9px;
 }
 .footer-links:first-child{
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .footer-link{
