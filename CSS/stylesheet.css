@@ -319,16 +319,13 @@ img {
    display: flex;
    justify-content: center;
    text-align: center;
-   margin-bottom: 34px;
+   margin-bottom: 50px;
 }
 
 .btn-item:not(:last-child){
     margin-right: 8px;
 }
 
-.btn-item{
-    margin-bottom: 16px;
-}
 /* Кнопка Усі */
 .button1{
     padding: 6px 25px;
