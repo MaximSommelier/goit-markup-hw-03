@@ -150,6 +150,11 @@ img {
     color: var(--first-color);
     letter-spacing: 0.03em;
 }
+
+.navi-line{
+    border-bottom: 1px solid var(--portfolio-border);
+}
+
 /* .main-section */
 .main-section{
     background-color:var(--just-color); 
