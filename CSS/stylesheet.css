@@ -204,10 +204,9 @@ img {
 /*особливості special */
 .list-special{
     display: flex;
+    gap: 30px;
 }
-.special-card{
-    gap: var(--indent);
-}
+
 .second-title{
     padding-top: 10px;
     width: 270px;
